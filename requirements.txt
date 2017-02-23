@@ -1,0 +1,14 @@
+Django==1.10
+Pillow==4.0.0
+argparse==1.4.0
+dj-database-url==0.4.1
+django-appconf==1.0.2
+django-imagekit==3.3
+django-jquery==3.1.0
+djangocms-installer==0.8.12
+olefile==0.44
+pilkit==1.1.13
+psycopg2==2.6.2
+pytz==2016.6.1
+six==1.10.0
+tzlocal==1.2.2
