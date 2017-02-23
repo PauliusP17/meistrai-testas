@@ -475,38 +475,10 @@ csmall2 {
 }
 .featured img {
 	border: 0;
-	display: block;
-	margin: 0;
+	display: inline-block;
+	margin-top: 50;
 	padding: 0;
 	width: 100%;
-}
-.featured div {
-	left: 50%;
-	margin-left: -1280px;
-	margin-top: -171px;
-	padding: 0 0 0 470px;
-	position: absolute;
-	top: 50%;
-	text-align: left;
-	width: 490px;
-}
-.featured div h2 {
-	background: #fff;
-	color: #000;
-	display: inline-block;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-
-	margin: 0 0 18px;
-	padding: 23px 27px 20px;
-	text-transform: uppercase;
-}
-.featured div span {
-	background: #252525;
-	color: #fff;
-	display: inline-block;
-	font-size: 20px;
-	margin: 7px 0;
-	padding: 12px 27px;
+	min-width: 750px;
 }
 
