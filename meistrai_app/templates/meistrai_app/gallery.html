@@ -2,14 +2,13 @@
 {% load staticfiles %}
 {% block content %}
 
-  <div class="container" style="padding-top: 100px; text-align: center;">
+<div id="black">
+  <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h1>Mūsų darbo pavyzdžiai</h1>
-        <p>Užveskite pelę ant nuotraukos norėdami padidinti ir sužinoti daugiau</p>
-      </div>
+      <h3>Atlikti darbai.</h3>
     </div>
   </div>
+</div>
 
 <div id="portfoliowrap">
   <div class="portfolio-centered">
@@ -23,13 +22,13 @@
               <h3 class="a1" data-animate="fadeInDown">{{ i.title }}</h3>
               <a data-rel="prettyPhoto" href="{{ i.image.url }}" class="dmbutton a2" data-animate="fadeInUp" title="{{ i.comment }}"><i class="fa fa-search"></i></a>
               <a href="/" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-            </div><!-- he bg -->
-          </div><!-- he view -->
-        </div><!-- he wrap -->
-      </div><!-- end col-12 -->
+            </div>
+          </div>
+        </div>
+      </div>
       {% endfor %}
     </div>
-  </div><!-- portfolio container -->
-</div><!--/Portfoliowrap -->
+  </div>
+</div>
 
 {% endblock content %}
