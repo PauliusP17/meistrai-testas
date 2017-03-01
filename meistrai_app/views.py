@@ -23,6 +23,12 @@ def contact(request):
     template = loader.get_template('meistrai_app/contact.html')
     return HttpResponse(template.render(context=None, request=request))
 
+
 def about(request):
     template = loader.get_template('meistrai_app/about.html')
+    return HttpResponse(template.render(context=None, request=request))
+
+
+def services(request):
+    template = loader.get_template('meistrai_app/services.html')
     return HttpResponse(template.render(context=None, request=request))
